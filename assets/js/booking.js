@@ -112,7 +112,7 @@ function loadSeats() {
 
     totalSeats.forEach((index) => {
         seatImage[index].classList.add("red-img");
-        seatImage[index].src = "/Movie-Booking/Photos/red-seat.png";
+        seatImage[index].src = "/booking-system/Photos/red-seat.png";
         seatImage[index].style.pointerEvents = "none";  
     });
     totalMoney.textContent = totalPrice; // Display the loaded price
