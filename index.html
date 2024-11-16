@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking System</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="cinema-name-logo">
+            <p class="name">XYZCinemas</p>
+            <img src="Photos/Cinema Logo.png" alt="Cinema Logo" class="logo">
+        </div>
+        <div class="search-input">
+            <input type="text" class="search" placeholder="Search Genre">
+            <img src="Photos/Search Icon.png" alt="search icon" class="search-icon">
+        </div>
+        <div class="my-ticket">
+            <p class="my">My Tickets</p>
+            <img src="Photos/ticket.png" alt="" class="ticket">
+        </div>
+    </div>
+   
+    <div class="img-container">
+        <div class="slogan">
+            <div class="statement">Book Your Tickets Now !</div>
+            
+                <img style="background: transparent;" src="Photos/Popcorn.png" alt="" class="popcorn">
+            
+        </div>
+        <div class="img">
+            <div class="slides">
+                <img src="Photos/MissionImpossible.jpg" alt="" class="slide">
+                <img src="Photos/JohnWick.jpg" alt="" class="slide">
+                <img src="Photos/Leo.jpg" alt="" class="slide">
+                <img src="Photos/Matrix.jpg" alt="" class="slide">
+                <img src="Photos/Vikram.jpg" alt="" class="slide">
+                <img src="Photos/TheConjuring.jpg" alt="" class="slide">
+                <img src="Photos/Stree2.jpg" alt="" class="slide">
+                <img src="Photos/munna bhai.jpg" alt="" class="slide">
+                <img src="Photos/TheExorcist.jpg" alt="" class="slide">
+                <img src="Photos/Annabelle.jpg" alt="" class="slide">
+                <img src="Photos/1920.jpg" alt="" class="slide">
+                <img src="Photos/3idiots.jpg" alt="" class="slide">
+                <img src="Photos/Baadshah.jpg" alt="" class="slide">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        
+        </div>
+    </div>
+    <div class="movies-container">
+        <div class="shows">
+            <p class="now-showing-title">Now Showing !</p>
+            <label for="" class="today"><input id="today" type="radio" name="date"><p class="todayDate"></p><p class="date">Today</p></label>
+            <label for="" class="tomorrow"><input id="tomorrow" type="radio" name="date"><p class="tomorrowDate"></p><p class="date">Tomorrow </p></label>
+            <label for="" class="after-tom"><input id="after-tom" type="radio" name="date"><p class="afterr-tomm"></p> </label>
+            <label for="" class="after-tom-after"><input id="after-tom-after" type="radio" name="date"><p class="afterr-tomm-afterr"></p></label>
+
+            <select name="" id="time">
+                <option value="10:30 AM">10:30 AM</option>
+                <option value="2:45 PM">2:45 PM</option>
+                <option value="7:15 PM">7:15 PM</option>
+                <option value="9:45 PM">9:45 PM</option>
+            </select>
+
+        </div>
+        
+        <div class="movies-box"></div>
+        
+    </div>
+  <script type="module" src="assets/js/script.js"></script>  
+</body>
+</html>
